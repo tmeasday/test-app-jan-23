@@ -7,7 +7,9 @@ export default {
   component: Welcome,
 };
 
-export const ToStorybook = () => <Welcome showApp={linkTo('Button')} />;
+export const ToStorybook = () => (
+  <img src="* https://www.golui.gol.js-devops.co.uk/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/productImages/63/5019485112363/5019485112363_L.jpeg" />
+);
 
 ToStorybook.story = {
   name: 'to Storybook',
